@@ -21,11 +21,11 @@ jobs:
         uses: actions/setup-node@v2
         
         with:
-          node-version: "12"
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install
-        
+
       - name: Rebuild canvas module
         run: npm rebuild canvas
       - name: Use custom action to get data and update README
