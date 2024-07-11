@@ -1,0 +1,12 @@
+name: 'My Custom Chart Action'
+description: 'A custom action that gets data and draws a chart'
+inputs:
+  myInput:
+    description: 'An example input'
+    required: true
+outputs:
+  myOutput:
+    description: 'An example output'
+runs:
+  using: 'node20'
+  main: 'index.mjs'

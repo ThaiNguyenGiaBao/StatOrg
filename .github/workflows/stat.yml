@@ -1,0 +1,15 @@
+name: Custom Chart Action Workflow
+on: [push]
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      run: npm install
+    - name: Run custom chart action
+      uses: ./
+      with:
+        myInput: 'Sample Input'
