@@ -1,4 +1,5 @@
-const core = require('@actions/core');
+// const core = require('@actions/core');
+import core from '@actions/core';
 import { getData } from './getData.mjs';
 // import { drawChart } from './drawChart';
 
