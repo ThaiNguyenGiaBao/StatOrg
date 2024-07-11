@@ -7,6 +7,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+    - name: Install dependencies
+      run: npm install
     - name: Run custom chart action
       uses: ./
       with:
