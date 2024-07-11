@@ -3,29 +3,18 @@
   "founded": 2023,
   "description": "Start here, go anywhere",
   "avarta": "https://avatars.githubusercontent.com/u/128288626?v=4",
-  "activeMembers": 17,
+  "activeMembers": 4,
   "publicRepositories": 20,
   "programmingLanguages": [
     "TypeScript",
     "JavaScript",
-    "Dockerfile",
-    "Shell",
     "CSS",
+    "Dockerfile",
     "HTML",
-    "PLpgSQL",
+    "Shell",
     "Python",
-    "CMake",
-    "C++",
-    "C",
-    "Dart",
-    "Swift",
-    "Kotlin",
-    "Objective-C",
     "Rust",
     "Go",
-    "Cuda",
-    "Vue",
-    "Cython",
     "Astro"
   ],
   "followers": "",
@@ -66,94 +55,50 @@
     }
   ],
   "repositoryStats": {
-    "totalStars": 66,
+    "totalStars": 59,
     "totalForks": 6,
-    "totalOpenIssues": 61,
+    "totalOpenIssues": 6,
     "totalClosedIssues": 0,
     "languages": [
       {
         "language": "Go",
-        "percentage": "0.18"
+        "percentage": "0.56"
       },
       {
         "language": "Rust",
-        "percentage": "1.53"
+        "percentage": "4.84"
       },
       {
         "language": "TypeScript",
-        "percentage": "33.87"
+        "percentage": "71.78"
       },
       {
         "language": "JavaScript",
-        "percentage": "3.48"
+        "percentage": "8.83"
       },
       {
         "language": "CSS",
-        "percentage": "0.31"
+        "percentage": "0.65"
       },
       {
         "language": "HTML",
-        "percentage": "0.60"
+        "percentage": "1.71"
       },
       {
         "language": "Shell",
-        "percentage": "4.11"
-      },
-      {
-        "language": "Dockerfile",
-        "percentage": "0.06"
-      },
-      {
-        "language": "PLpgSQL",
-        "percentage": "0.02"
+        "percentage": "0.34"
       },
       {
         "language": "Astro",
-        "percentage": "2.99"
+        "percentage": "9.46"
+      },
+      {
+        "language": "Dockerfile",
+        "percentage": "0.07"
       },
       {
         "language": "Python",
-        "percentage": "45.64"
-      },
-      {
-        "language": "CMake",
-        "percentage": "0.70"
-      },
-      {
-        "language": "C++",
-        "percentage": "0.84"
-      },
-      {
-        "language": "C",
-        "percentage": "0.05"
-      },
-      {
-        "language": "Dart",
-        "percentage": "5.11"
-      },
-      {
-        "language": "Swift",
-        "percentage": "0.04"
-      },
-      {
-        "language": "Kotlin",
-        "percentage": "0.00"
-      },
-      {
-        "language": "Objective-C",
-        "percentage": "0.00"
-      },
-      {
-        "language": "Cuda",
-        "percentage": "0.28"
-      },
-      {
-        "language": "Vue",
-        "percentage": "0.15"
-      },
-      {
-        "language": "Cython",
-        "percentage": "0.04"
+        "percentage": "1.75"
       }
     ]
   },
