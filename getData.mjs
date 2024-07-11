@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 
 async function getData() {
   dotenv.config();
-
   const octokit = new Octokit({
     auth: process.env.GITHUB_TOKEN,
   });
@@ -59,7 +58,6 @@ async function getData() {
       facebook: "",
     },
   };
-
   const { data: orgData } = await octokit.orgs.get({ org: orgName });
   // const { data: members } = await octokit.orgs.listMembers({ org: orgName });
   // const repos = await octokit.paginate(octokit.repos.listForOrg, {
@@ -71,7 +69,13 @@ async function getData() {
   data.socialMedia.twitter = orgData.twitter_username;
   data.blogUrl = orgData.blog;
   data.contact = orgData.email;
+
+  //console.log(data);
   return data;
 }
 
 export { getData };
+
+
+
+// export { data };

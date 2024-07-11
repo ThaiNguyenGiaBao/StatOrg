@@ -10,7 +10,7 @@ async function run() {
 
     // Get data
     const data = await getData();
-    console.log(`Data received: ${data}`);
+    console.log(data);
     // Draw chart
     //const chartPath = await drawChart(data);
 
