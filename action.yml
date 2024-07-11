@@ -5,6 +5,9 @@ inputs:
     description: 'Organization name'
     required: true
     default: 'TickLabVN'
+  token:
+    description: 'GitHub token'
+    required: true
 runs:
   using: 'node20'
   main: 'index.mjs'

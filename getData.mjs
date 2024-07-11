@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import fs from "fs";
 
 
-async function getData(orgName) {
+async function getData(orgName, token) {
   dotenv.config();
   const octokit = new Octokit({
-    auth: process.env.GITHUB_TOKEN,
+    auth: token,
   });
 
   //const orgName = "TickLabVN";
@@ -254,7 +254,7 @@ async function getData(orgName) {
   await getRepoStats();
   await recentActivity();
 
-  fs.writeFileSync("data.json", JSON.stringify(data, null, 2));
+  //fs.writeFileSync("data.json", JSON.stringify(data, null, 2));
   return data;
 }
 

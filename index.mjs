@@ -7,9 +7,9 @@ async function run() {
   try {
     const orgName = core.getInput('org-name');
     console.log(`Input received: ${orgName}`);
-
+    const token = core.getInput('token');
     // Get data
-    const data = await getData(orgName);
+    const data = await getData(orgName, token);
     console.log(data);
     // Draw chart
     await drawChart(data);
