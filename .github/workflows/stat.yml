@@ -12,4 +12,4 @@ jobs:
     - name: Run custom chart action
       uses: ./
       with:
-        myInput: 'Sample Input'
+        myInput: 'TickLabVN'

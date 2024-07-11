@@ -2,7 +2,7 @@ name: 'My Custom Chart Action'
 description: 'A custom action that gets data and draws a chart'
 inputs:
   myInput:
-    description: 'An example input'
+    description: 'Organization name'
     required: true
 outputs:
   myOutput:

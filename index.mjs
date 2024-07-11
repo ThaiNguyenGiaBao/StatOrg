@@ -12,7 +12,7 @@ async function run() {
     const data = await getData();
     console.log(data);
     // Draw chart
-    //const chartPath = await drawChart(data);
+    await drawChart(data);
 
     // Set the output
     core.setOutput('myOutput', "Hello World");
