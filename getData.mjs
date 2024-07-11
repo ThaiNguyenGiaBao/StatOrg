@@ -258,6 +258,8 @@ async function getData(orgName) {
   return data;
 }
 
+getData("TickLabVN");
+
 export { getData };
 
 

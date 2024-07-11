@@ -4,9 +4,7 @@ inputs:
   org-name:
     description: 'Organization name'
     required: true
-outputs:
-  myOutput:
-    description: 'An example output'
+    default: 'TickLabVN'
 runs:
   using: 'node20'
   main: 'index.mjs'

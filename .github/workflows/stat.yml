@@ -26,12 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Rebuild canvas module
-        run: npm rebuild canvas
       - name: Use custom action to get data and update README
         uses: ./
         with:
-          org-name: "holistics"
+          org-name: "TickLabVN"
         #   token: ${{ secrets.GITHUB_TOKEN }}
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
