@@ -8,5 +8,5 @@ outputs:
   myOutput:
     description: 'An example output'
 runs:
-  using: 'node20'
+  using: 'node12'
   main: 'index.mjs'
