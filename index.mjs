@@ -5,7 +5,7 @@ import { drawChart } from './drawChart.mjs';
 
 async function run() {
   try {
-    const orgName = core.getInput('orgName');
+    const orgName = core.getInput('org-name');
     console.log(`Input received: ${orgName}`);
 
     // Get data
