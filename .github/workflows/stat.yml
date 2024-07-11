@@ -27,7 +27,7 @@ jobs:
         run: npm install
         
       - name: Use custom action to get data and update README
-        uses: ./getData ThaiNguyenGiaBao/CreateChart@v1
+        uses: ./
         with:
           org-name: "TickLabVN"
         #   token: ${{ secrets.GITHUB_TOKEN }}
