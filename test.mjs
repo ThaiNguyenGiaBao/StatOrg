@@ -1,4 +1,3 @@
-// const core = require('@actions/core');
 import { getData } from './getData.mjs';
 // import { drawChart } from './drawChart';
 
