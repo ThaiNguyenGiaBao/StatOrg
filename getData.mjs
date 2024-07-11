@@ -3,13 +3,13 @@ import dotenv from "dotenv";
 import fs from "fs";
 
 
-async function getData() {
+async function getData(orgName) {
   dotenv.config();
   const octokit = new Octokit({
     auth: process.env.GITHUB_TOKEN,
   });
 
-  const orgName = "TickLabVN";
+  //const orgName = "TickLabVN";
 
   const data = {
     name: "",

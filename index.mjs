@@ -5,11 +5,11 @@ import { drawChart } from './drawChart.mjs';
 
 async function run() {
   try {
-    const myInput = core.getInput('myInput');
-    console.log(`Input received: ${myInput}`);
+    const orgName = core.getInput('orgName');
+    console.log(`Input received: ${orgName}`);
 
     // Get data
-    const data = await getData();
+    const data = await getData(orgName);
     console.log(data);
     // Draw chart
     await drawChart(data);
