@@ -1,16 +1,17 @@
 const core = require('@actions/core');
-
+import { getData } from './getData.mjs';
+// import { drawChart } from './drawChart';
 
 async function run() {
   try {
     const myInput = core.getInput('myInput');
     console.log(`Input received: ${myInput}`);
 
-    // // Get data
-    // const data = await getData(myInput);
-
-    // // Draw chart
-    // const chartPath = await drawChart(data);
+    // Get data
+    const data = await getData();
+    console.log(`Data received: ${data}`);
+    // Draw chart
+    //const chartPath = await drawChart(data);
 
     // Set the output
     core.setOutput('myOutput', "Hello World");
