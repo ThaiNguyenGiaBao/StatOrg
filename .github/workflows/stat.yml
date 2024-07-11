@@ -31,7 +31,7 @@ jobs:
       - name: Use custom action to get data and update README
         uses: ./
         with:
-          org-name: "TickLabVN"
+          org-name: "holistics"
         #   token: ${{ secrets.GITHUB_TOKEN }}
         # env:
         #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
